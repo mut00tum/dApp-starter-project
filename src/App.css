@@ -14,21 +14,43 @@
 
 .header {
   text-align: center;
-  font-size: 32px;
   font-weight: 600;
+  color: #B99458;
+  font-size: 80px;
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: #AEAEAE;
   margin-top: 16px;
 }
 
-.waveButton {
+/* .waveButton {
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
   
+} */
+
+.waveButton  {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 300px;
+  color: #B99458;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #B99458;
+  margin-bottom: 16px;
+  background-color: #282727;
+}
+
+.waveButton:hover {
+  color: #ebebeb;
+  text-decoration: none;
+  background-color: #B99458;
 }
